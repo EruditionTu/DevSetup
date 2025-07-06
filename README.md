@@ -4,7 +4,7 @@ A repo saved config files to setup dev env.
 
 ## nivm
 
-My Nvim config Backspace as <leader> key.
+My Nvim config Backspace as `<leader>` key.
 
 
 ### plugins
