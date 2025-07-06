@@ -1,3 +1,5 @@
+
+vim.g.mapleader = ' '
 -- load options
 require("options")
 
