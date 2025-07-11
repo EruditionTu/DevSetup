@@ -41,18 +41,17 @@ I just install the lsp like gopls, clangd,tsserver,cssls, lua_ls, bashls, rust_a
     `c` or `R`: to rename the folder/file.
     `d`: will delete the file or folder.
     `y`: it will copy the filename to clipboard.
-    `d` with `p`: will Cut and Paste the file.
-* [monika]():
-* [novice]():
-* [autopairs]():
-* [lint](): 
-* [lspconfig]():
-* [surround]():
-* [tree]():
-* [tree-sitter]():
+    `d` with `p`: will Cut and Paste the： file.
+* [monokai](https://github.com/loctvl842/monokai-pro.nvim): code theme plugin.
+* [noice](https://github.com/folke/noice.nvim): notice developer error , warning, info and other message.
+* [autopairs](https://github.com/windwp/nvim-autopairs): A super powerful autopair plugin for Neovim that supports multiple characters.
+* [lint](https://github.com/mfussenegger/nvim-lint): an asynchronous linter plugin for Neovim. 
+* [lspconfig](https://github.com/neovim/nvim-lspconfig): LSP Config for nvim.
+* [surround](https://github.com/kylechui/nvim-surround): support 
+* [tree](https://github.com/nvim-tree/nvim-tree.lua): support file type icon, file tree, file action.
 * [treesitter]() & [treesitter-context]() & [treesitter-textobjects](): 
-* [render-markdown]():  
-* [telescope](): 
+* [render-markdown](https://github.com/MeanderingProgrammer/render-markdown.nvim): a nvim plugin to render the markdonw file.  
+* [telescope](https://github.com/nvim-telescope/telescope.nvim?tab=readme-ov-file#usage): 
 * [todo-comments]():
 * [toggleterm]():
 * [tokyonight](): 

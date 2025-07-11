@@ -58,3 +58,13 @@ vim.keymap.set("v", ">", ">gv", opts)
 -- 3. Press `gsi` to increment selection by AST node. (si = selection incremental)
 -- 4. Press `gsc` to increment selection by scope. (sc = scope)
 -- 5. Press `gsd` to decrement selection. (sd = selection decrement)
+
+
+
+-- Keymap for swithing focus area quickly.
+-- Key for nvim-tree
+vim.keymap.set("n", "<leader>z" , "<Cmd>NvimTreeFocus<CR>", opts) -- Focus on the file tree.
+vim.keymap.set("n", "<leader>o", "<Cmd>NvimTreeOpen<CR>", opts) -- Open the file tree.
+
+vim.keymap.set("n", "<leader><leader>", "<C-w>p", opts) -- Back to the area lastest edited.
+
