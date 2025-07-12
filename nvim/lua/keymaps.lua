@@ -14,6 +14,7 @@ vim.keymap.set("n", "<C-h>", "<C-w>h", opts)
 vim.keymap.set("n", "<C-j>", "<C-w>j", opts)
 vim.keymap.set("n", "<C-k>", "<C-w>k", opts)
 vim.keymap.set("n", "<C-l>", "<C-w>l", opts)
+vim.keymap.set("n", "<C-p>", "<C-w>p", opts)
 
 -- Resize with arrows
 -- delta: 2 lines
@@ -27,7 +28,7 @@ vim.keymap.set("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 vim.keymap.set("n", "<leader>e", "<cmd>lua MiniFiles.open()<CR>", opts)
 
 -- Open CodeCompanion.nvim
-vim.keymap.set("n", "<leader>aa", "<cmd>CodeCompanionChat Toggle<CR>", opts)
+vim.keymap.set("n", "<leader>ai", "<cmd>CodeCompanionChat Toggle<CR>", opts)
 
 -- For flash.nvim
 -- 1. Press `s` and type jump label
@@ -61,10 +62,11 @@ vim.keymap.set("v", ">", ">gv", opts)
 
 
 
--- Keymap for swithing focus area quickly.
 -- Key for nvim-tree
 vim.keymap.set("n", "<leader>z" , "<Cmd>NvimTreeFocus<CR>", opts) -- Focus on the file tree.
 vim.keymap.set("n", "<leader>o", "<Cmd>NvimTreeOpen<CR>", opts) -- Open the file tree.
 
-vim.keymap.set("n", "<leader><leader>", "<C-w>p", opts) -- Back to the area lastest edited.
-
+-- For toggleterm
+vim.keymap.set("n", '<leader>t', function()
+  require('toggleterm').toggle(1, 12, nil, 'horizontal')
+end, opts)
