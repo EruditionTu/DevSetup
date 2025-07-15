@@ -182,6 +182,17 @@
   },
   "chat_panel": {
     "dock": "left"
+  },
+  "auto_install_extensions": {
+    "html": true,
+    "java": true,
+    "dockerfile": true,
+    "vue": true,
+    "git-firefly": true,
+    "make": true,
+    "svelte": true,
+    "ruff": true,
+    "oxc": true
   }
 }
 
