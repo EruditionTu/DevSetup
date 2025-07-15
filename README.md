@@ -11,7 +11,9 @@ My Nvim config Backspace as `<leader>` key.
 
 ### Keymap
 
-- native
+- vim basic usage
+    - `h` `j` `k` `l`: Left Down Up Right.
+    - `w` `b`: `w` to next word start | `b` to the prev word start.
     - `<ESC>`: Leave current mode.
     - `<C-p>`: Back to last focus area. 
     - `<C-j>`: Down focus area.
@@ -25,6 +27,7 @@ My Nvim config Backspace as `<leader>` key.
     - `e filename`: Create new file and open the file.
     - `w`: Save current file.
     - `!rm filename`: Delete the file.
+    - `rowline number`: just input
 
 - nvim-code-companion-chat: ai code assisant
     -`<leader>ai`: Launch the AICode Assisant 
@@ -110,4 +113,3 @@ My Nvim config Backspace as `<leader>` key.
 * [typst-preview](https://github.com/chomosuke/typst-preview.nvim): Typst file preview.
 * [vim-fugitive](https://github.com/tpope/vim-fugitive): a plugin for using git.
 * [vim-markdown](https://github.com/preservim/vim-markdown): a plugin to preview markdown.
-
