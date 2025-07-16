@@ -193,6 +193,14 @@
     "svelte": true,
     "ruff": true,
     "oxc": true
-  }
+  },
+  // Code Agent Provider
+  "agent": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-7-sonnet-latest"
+    },
+    "version": "2"
+  },
 }
 
