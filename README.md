@@ -24,7 +24,10 @@ A repo saved config files to setup dev env.
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 * [Xcode](https://developer.apple.com/xcode/): build the App runing at Apple OS platform.
-
+* [Kitty](https://sw.kovidgoyal.net/kitty/): The fast, feature-rich, GPU based terminal emulator.
+```shell
+brew install kitty
+```
 ## Develop
 * [Git](https://git-scm.com/): software version management. git built-in on Mac, but windows should run the shell command to install by yourself.
 ``` shell
